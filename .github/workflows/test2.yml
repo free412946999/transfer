@@ -38,4 +38,4 @@ jobs:
 
       - name: test - all
         run: |
-          ./ci-test-linux-amd64 cat --no-progress go.sum
+          ./ci-test-linux-amd64 cow --no-progress go.sum
